@@ -17,6 +17,9 @@ use Norm\Schema\Password;
 use PassMan\Schema\Pass;
 
 return array(
+    'app.about' => array(
+        'title' => 'Password Management',
+    ),
     'bono.salt' => 'this is the salt',
     'bono.providers' => array(
         '\\Norm\\Provider\\NormProvider' => array(
@@ -70,5 +73,9 @@ return array(
             'driver' => '\\ROH\\BonoAuth\\Driver\\NormAuth',
         ),
         '\\Bono\\Middleware\\SessionMiddleware'
+    ),
+    'bono.theme' => array(
+        'class' => '\\Xinix\\Theme\\NakedTheme',
+        'override' => true,
     ),
 );

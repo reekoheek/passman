@@ -7,4 +7,7 @@
     <li>
         <a href="<?php echo URL::site('/credential') ?>">Credential</a>
     </li>
+    <li>
+        <a href="<?php echo URL::site('/logout') ?>">Logout</a>
+    </li>
 </ul>
