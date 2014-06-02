@@ -11,7 +11,7 @@ use \Xinix\Theme\NakedTheme\Helper\Form;
             <option data-url="<?php echo f('controller.url', '/'.$entry['$id'].'/update') ?>">Update</option>
             <option data-url="<?php echo f('controller.url', '/'.$entry['$id'].'/delete') ?>">Delete</option>
             <option disabled></option>
-            <option data-url="<?php echo f('controller.url', '/'.$entry['$id'].'/keys') ?>" selected>Privileges</option>
+            <option data-url="<?php echo f('controller.url', '/'.$entry['$id'].'/privileges') ?>" selected>Privileges</option>
 
         </select>
     </div>
