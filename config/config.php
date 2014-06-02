@@ -48,7 +48,7 @@ return array(
             'mapping' => array(
                 '/user' => null,
                 '/role' => null,
-                '/credential' => null,
+                '/credential' => '\\PassMan\\Controller\\CredentialController',
             ),
         ),
         '\\Bono\\Middleware\\ContentNegotiatorMiddleware' => array(
