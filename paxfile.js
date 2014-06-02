@@ -5,7 +5,7 @@ module.exports = function() {
         Q = context.require('q');
 
     this.task('init', function(logger) {
-        return that.exec(['php', 'composer', 'install'], logger);
+        return context.exec(['php', 'composer', 'install'], logger);
     });
 
 };
