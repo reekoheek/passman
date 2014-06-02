@@ -29,8 +29,8 @@ use \Xinix\Theme\NakedTheme\Helper\Form;
                     </div>
                 </div>
 
-                <?php if (count($entry['privileges'])): ?>
-                <?php foreach ($entry['privileges'] as $privilege): ?>
+                <?php if (count($entry['$privileges'])): ?>
+                <?php foreach ($entry['$privileges'] as $privilege): ?>
                 <div class="row field field-name">
                     <div class="span-12">
                         <input type="text" name="privilege[]" value="<?php echo $privilege ?>">
