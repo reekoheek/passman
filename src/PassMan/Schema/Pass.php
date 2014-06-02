@@ -13,13 +13,13 @@ class Pass extends String
         return $value;
     }
 
-    public function input($value, $entry = null)
+    public function formatInput($value, $entry = null)
     {
         $id = uniqid('generate-');
-        $html = parent::input($value, $entry);
+        $html = parent::formatInput($value, $entry);
         if (!$this['readonly']) {
             $html .= '
-                <a href="#" id="'.$id.'">Generate</a>
+                <a href="#" id="'.$id.'" class="button">Generate</a>
                 <script>
                     var el = document.getElementById("'.$id.'");
                     el.addEventListener("click", function(evt) {

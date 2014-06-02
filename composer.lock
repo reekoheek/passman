@@ -1,22 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "d0b8b2b646abe38d182687644f265cd1",
+    "hash": "088bb2d680132cf865777590d6392abc",
     "packages": [
         {
             "name": "filp/whoops",
-            "version": "1.1",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "a5865f8f02947590e36206b08368e5b08289a946"
+                "reference": "ae05259236204ccf904a94e5b0d96df8d4351da5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/a5865f8f02947590e36206b08368e5b08289a946",
-                "reference": "a5865f8f02947590e36206b08368e5b08289a946",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/ae05259236204ccf904a94e5b0d96df8d4351da5",
+                "reference": "ae05259236204ccf904a94e5b0d96df8d4351da5",
                 "shasum": ""
             },
             "require": {
@@ -28,7 +29,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -61,7 +62,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2014-04-28 04:54:31"
+            "time": "2014-05-13 05:05:11"
         },
         {
             "name": "guzzle/guzzle",
@@ -161,12 +162,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reekoheek/bono-auth.git",
-                "reference": "3356f06cb52d2e5095384999174d194348014ae3"
+                "reference": "95a412062c696a0ab6f1ba8c1e05a924382a9faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reekoheek/bono-auth/zipball/3356f06cb52d2e5095384999174d194348014ae3",
-                "reference": "3356f06cb52d2e5095384999174d194348014ae3",
+                "url": "https://api.github.com/repos/reekoheek/bono-auth/zipball/95a412062c696a0ab6f1ba8c1e05a924382a9faf",
+                "reference": "95a412062c696a0ab6f1ba8c1e05a924382a9faf",
                 "shasum": ""
             },
             "require": {
@@ -192,7 +193,7 @@
                 }
             ],
             "description": "Bono Auth",
-            "time": "2014-05-06 06:44:13"
+            "time": "2014-05-31 07:39:13"
         },
         {
             "name": "reekoheek/jsonkit",
@@ -317,24 +318,27 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.4.4",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "e539602e5455aa086c0e81e604745af7789e4d8a"
+                "reference": "cb62ec8dd05893fc8e4f0e6e21e326e1fc731fe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/e539602e5455aa086c0e81e604745af7789e4d8a",
-                "reference": "e539602e5455aa086c0e81e604745af7789e4d8a",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/cb62ec8dd05893fc8e4f0e6e21e326e1fc731fe8",
+                "reference": "cb62ec8dd05893fc8e4f0e6e21e326e1fc731fe8",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "symfony/dependency-injection": "~2.0"
+                "psr/log": "~1.0",
+                "symfony/config": "~2.0",
+                "symfony/dependency-injection": "~2.0",
+                "symfony/stopwatch": "~2.2"
             },
             "suggest": {
                 "symfony/dependency-injection": "",
@@ -343,7 +347,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -369,7 +373,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2014-04-16 10:34:31"
+            "time": "2014-04-29 10:13:57"
         },
         {
             "name": "xinix-technology/bono",
@@ -377,20 +381,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xinix-technology/bono.git",
-                "reference": "227bffe3c2ae1e3ad523f695a73dd9219f2537e6"
+                "reference": "bf643f2c89cf7fb527774a1382ddc628d064252c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xinix-technology/bono/zipball/227bffe3c2ae1e3ad523f695a73dd9219f2537e6",
-                "reference": "227bffe3c2ae1e3ad523f695a73dd9219f2537e6",
+                "url": "https://api.github.com/repos/xinix-technology/bono/zipball/bf643f2c89cf7fb527774a1382ddc628d064252c",
+                "reference": "bf643f2c89cf7fb527774a1382ddc628d064252c",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "1.*",
                 "reekoheek/util": ">=0.1.2",
                 "slim/slim": "2.3.*",
-                "xinix-technology/norm": "*",
-                "zeuxisoo/slim-whoops": "0.1.0"
+                "xinix-technology/norm": "*"
             },
             "require-dev": {
                 "phpdocumentor/phpdocumentor": "2.*",
@@ -430,7 +433,7 @@
                     "role": "Developer"
                 }
             ],
-            "time": "2014-05-09 15:39:29"
+            "time": "2014-05-31 05:18:03"
         },
         {
             "name": "xinix-technology/naked-theme",
@@ -438,12 +441,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xinix-technology/naked-theme.git",
-                "reference": "e934375417e43c95f477b9fe9dc6eea62d169e34"
+                "reference": "0ae7dac78472096b9b6df9eb2aa8a5f6c25e0194"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xinix-technology/naked-theme/zipball/e934375417e43c95f477b9fe9dc6eea62d169e34",
-                "reference": "e934375417e43c95f477b9fe9dc6eea62d169e34",
+                "url": "https://api.github.com/repos/xinix-technology/naked-theme/zipball/0ae7dac78472096b9b6df9eb2aa8a5f6c25e0194",
+                "reference": "0ae7dac78472096b9b6df9eb2aa8a5f6c25e0194",
                 "shasum": ""
             },
             "type": "library",
@@ -463,7 +466,7 @@
                 }
             ],
             "description": "Naked theme",
-            "time": "2014-05-09 15:41:07"
+            "time": "2014-05-31 09:18:44"
         },
         {
             "name": "xinix-technology/norm",
@@ -471,12 +474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xinix-technology/norm.git",
-                "reference": "d34d5a16eb38dca499962ec0ac39d5c95f350cc6"
+                "reference": "9e0c0d771c1f1053748c42b696e992dee5368c53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xinix-technology/norm/zipball/d34d5a16eb38dca499962ec0ac39d5c95f350cc6",
-                "reference": "d34d5a16eb38dca499962ec0ac39d5c95f350cc6",
+                "url": "https://api.github.com/repos/xinix-technology/norm/zipball/9e0c0d771c1f1053748c42b696e992dee5368c53",
+                "reference": "9e0c0d771c1f1053748c42b696e992dee5368c53",
                 "shasum": ""
             },
             "require": {
@@ -516,57 +519,7 @@
                     "role": "Developer"
                 }
             ],
-            "time": "2014-05-09 15:39:15"
-        },
-        {
-            "name": "zeuxisoo/slim-whoops",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zeuxisoo/php-slim-whoops.git",
-                "reference": "7d660f4dc5aa2243e69062bb09fc9396385627df"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zeuxisoo/php-slim-whoops/zipball/7d660f4dc5aa2243e69062bb09fc9396385627df",
-                "reference": "7d660f4dc5aa2243e69062bb09fc9396385627df",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "filp/whoops": "1.*",
-                "phpunit/phpunit": "3.7.*@dev",
-                "slim/slim": "2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Zeuxisoo\\Whoops\\Provider\\Slim\\WhoopsMiddleware": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Zeuxis Lo",
-                    "email": "seekstudio@gmail.com",
-                    "homepage": "http://www.chair.im/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP whoops error on slim framework",
-            "homepage": "https://github.com/zeuxisoo/php-slim-whoops/",
-            "keywords": [
-                "error",
-                "exception",
-                "slim",
-                "whoops"
-            ],
-            "time": "2014-01-14 07:01:41"
+            "time": "2014-05-31 05:21:24"
         }
     ],
     "packages-dev": [

@@ -17,8 +17,9 @@ use Norm\Schema\Password;
 use PassMan\Schema\Pass;
 
 return array(
-    'app.about' => array(
-        'title' => 'Password Management',
+    'application' => array(
+        'title' => 'PassMan',
+        'subtitle' => 'Password Management'
     ),
     'bono.salt' => 'this is the salt',
     'bono.providers' => array(
@@ -30,33 +31,23 @@ return array(
                 ),
             ),
             'collections' => array(
-                'mapping' => array(
-                    'User' => array(
-                        'schema' => array(
-                            'username' => String::create('username')->filter('trim|required|unique:User,username'),
-                            'password' => Password::create('password')->filter('trim|confirmed|salt'),
-                            'email' => String::create('email')->filter('trim|required|unique:User,email'),
-                            'first_name' => String::create('first_name')->filter('trim|required'),
-                            'last_name' => String::create('last_name')->filter('trim|required'),
-                        ),
-                    ),
-                    'Credential' => array(
-                        'schema' => array(
-                            'name' => String::create('name'),
-                            'url' => String::create('url'),
-                            'username' => String::create('username'),
-                            'password' => Pass::create('password'),
-                        ),
-                    ),
+                'observers' => array(
+                    '\\Norm\\Observer\\Timestampable',
+                    '\\Norm\\Observer\\Ownership',
+                ),
+                'resolvers' => array(
+                    '\\Norm\\Resolver\\CollectionResolver',
                 ),
             ),
         ),
     ),
     'bono.middlewares' => array(
+        '\\Bono\\Middleware\\StaticPageMiddleware' => null,
         '\\Bono\\Middleware\\ControllerMiddleware' => array(
             'default' => '\\Norm\\Controller\\NormController',
             'mapping' => array(
                 '/user' => null,
+                '/role' => null,
                 '/credential' => null,
             ),
         ),

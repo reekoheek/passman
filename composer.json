@@ -19,7 +19,8 @@
             "PassMan": "src/",
             "Bono": "/home/jafar/workspaces/php/lib/bono/src/",
             "Norm": "/home/jafar/workspaces/php/lib/norm/src/",
-            "ROH\\BonoAuth": "/home/jafar/workspaces/php/lib/bono-auth/src/"
+            "ROH\\BonoAuth": "/home/jafar/workspaces/php/lib/bono-auth/src/",
+            "Xinix\\Theme\\NakedTheme": "/home/jafar/workspaces/php/themes/naked-theme/src/"
         }
     }
 }
