@@ -4,6 +4,7 @@
   "description": "",
   "main": "paxfile.js",
   "dependencies": {
+    "pax-php": "^0.1.2"
   },
   "devDependencies": {
     "shelljs": "^0.2.6"
