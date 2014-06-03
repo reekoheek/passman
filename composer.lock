@@ -162,12 +162,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reekoheek/bono-auth.git",
-                "reference": "95a412062c696a0ab6f1ba8c1e05a924382a9faf"
+                "reference": "0ddef9102e9f8c787b610388ba896a1457e53a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reekoheek/bono-auth/zipball/95a412062c696a0ab6f1ba8c1e05a924382a9faf",
-                "reference": "95a412062c696a0ab6f1ba8c1e05a924382a9faf",
+                "url": "https://api.github.com/repos/reekoheek/bono-auth/zipball/0ddef9102e9f8c787b610388ba896a1457e53a9d",
+                "reference": "0ddef9102e9f8c787b610388ba896a1457e53a9d",
                 "shasum": ""
             },
             "require": {
@@ -193,20 +193,20 @@
                 }
             ],
             "description": "Bono Auth",
-            "time": "2014-05-31 07:39:13"
+            "time": "2014-06-03 09:26:23"
         },
         {
             "name": "reekoheek/jsonkit",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reekoheek/php-jsonkit.git",
-                "reference": "0e2cc725acccb8c0e966aeb502233193277c9716"
+                "reference": "fc7769ba88af09be6cf7087ff1736ad1002b3b75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reekoheek/php-jsonkit/zipball/0e2cc725acccb8c0e966aeb502233193277c9716",
-                "reference": "0e2cc725acccb8c0e966aeb502233193277c9716",
+                "url": "https://api.github.com/repos/reekoheek/php-jsonkit/zipball/fc7769ba88af09be6cf7087ff1736ad1002b3b75",
+                "reference": "fc7769ba88af09be6cf7087ff1736ad1002b3b75",
                 "shasum": ""
             },
             "require-dev": {
@@ -235,7 +235,7 @@
                     "role": "Developer"
                 }
             ],
-            "time": "2014-03-03 15:56:59"
+            "time": "2014-06-02 13:46:37"
         },
         {
             "name": "reekoheek/util",
@@ -381,12 +381,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xinix-technology/bono.git",
-                "reference": "bf643f2c89cf7fb527774a1382ddc628d064252c"
+                "reference": "aa3f7bb71fb92f604b8d2192b7269a1f66074df0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xinix-technology/bono/zipball/bf643f2c89cf7fb527774a1382ddc628d064252c",
-                "reference": "bf643f2c89cf7fb527774a1382ddc628d064252c",
+                "url": "https://api.github.com/repos/xinix-technology/bono/zipball/aa3f7bb71fb92f604b8d2192b7269a1f66074df0",
+                "reference": "aa3f7bb71fb92f604b8d2192b7269a1f66074df0",
                 "shasum": ""
             },
             "require": {
@@ -433,7 +433,7 @@
                     "role": "Developer"
                 }
             ],
-            "time": "2014-05-31 05:18:03"
+            "time": "2014-06-03 08:51:34"
         },
         {
             "name": "xinix-technology/naked-theme",
@@ -474,12 +474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xinix-technology/norm.git",
-                "reference": "9e0c0d771c1f1053748c42b696e992dee5368c53"
+                "reference": "fa6a1eb603a3a27e28efcdd42adefe9646bc9da6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xinix-technology/norm/zipball/9e0c0d771c1f1053748c42b696e992dee5368c53",
-                "reference": "9e0c0d771c1f1053748c42b696e992dee5368c53",
+                "url": "https://api.github.com/repos/xinix-technology/norm/zipball/fa6a1eb603a3a27e28efcdd42adefe9646bc9da6",
+                "reference": "fa6a1eb603a3a27e28efcdd42adefe9646bc9da6",
                 "shasum": ""
             },
             "require": {
@@ -519,7 +519,7 @@
                     "role": "Developer"
                 }
             ],
-            "time": "2014-05-31 05:21:24"
+            "time": "2014-06-03 10:02:10"
         }
     ],
     "packages-dev": [
