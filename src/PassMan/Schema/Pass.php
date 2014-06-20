@@ -16,10 +16,10 @@ class Pass extends String
     public function formatInput($value, $entry = null)
     {
         $id = uniqid('generate-');
-        $html = parent::formatInput($value, $entry);
+        $html = '<div style="display: flex">'.parent::formatInput($value, $entry);
         if (!$this['readonly']) {
             $html .= '
-                <a href="#" id="'.$id.'" class="button">Generate</a>
+                <a href="#" id="'.$id.'" style="padding-right: 10px">Generate</a>
                 <script>
                     var el = document.getElementById("'.$id.'");
                     el.addEventListener("click", function(evt) {
@@ -29,6 +29,6 @@ class Pass extends String
                 </script>
                 ';
         }
-        return $html;
+        return $html.'</div>';
     }
 }
